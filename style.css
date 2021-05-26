@@ -1,0 +1,276 @@
+/* CSS RESET */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+/* css variable  */
+:root{
+    --navbar-height:60px;
+    
+}
+.center{
+text-align: center;
+}
+
+    .h-primary{
+        font-size: 3.8rem;
+        /* padding: 15px; */
+        font-family: 'Yatra One', cursive;
+        
+    }
+    .h-secondery{
+        font-size: 2.8rem;
+        padding: 15px;
+        font-family: 'Gayathri', sans-serif;
+       
+    
+        
+    
+    }
+#navbar{
+     display: flex;
+     align-items: center;
+     font-family: 'Yatra One', cursive;
+     position: sticky;
+     top: 0px;
+     
+      
+}
+#navbar::before{
+     content: "";
+     background-color: black;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     height: 100%;
+     width: 100%;
+     z-index: -1;
+     opacity: 1;
+
+      
+}
+/* LOGO AND IMAGE */
+#logo{
+    margin: 10px 53px ;
+    
+}
+#logo img{
+    margin: 30px 30px ;
+    height: 65px;
+
+}
+/* list styling */
+
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    /* text-decoration: none; */
+    list-style: none; 
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 20px;
+    border-radius: 20px;
+    text-decoration: none ;
+    color: white;
+
+}
+#navbar ul li a:hover{
+    background-color: white;
+    color: black ;
+
+}
+/* Home section */
+#home{
+    display: flex;
+    flex-direction:column;
+    padding: 3px 200px;
+    height: 582px;
+    
+
+    
+    align-items: center;
+    justify-content: center;
+
+}
+#home::before{
+    content: "";
+    background:url('img1.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 740px;
+    width: 100%;
+  z-index: -1;
+    opacity: .8;
+    position: absolute;
+    
+
+     
+}
+#home h1{ 
+    color: white;
+    text-align: center;
+    font-family: 'Yatra One', cursive;
+    
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    
+    font-family: 'Gayathri', sans-serif;
+
+}
+/* utility classes */
+
+.btn{
+    padding: 5px 20px;
+    margin: 30px;
+    border: 2px solid white;
+    background-color: rgb(255, 145, 0);
+    border-radius: 10px;
+    font-size: 1.4rem;
+    font-family: 'Yatra One', cursive;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(255, 94, 0);
+}
+
+/* service section */
+/* #services-container::before{
+    content: " ";
+    position: absolute;
+    background: url('img4.jpg') no-repeat center center/cover;
+    width: 100vw;
+    height: 550px;
+    z-index: -1;
+    opacity: 0.4;
+
+} */
+#services-container{
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+#services{
+    margin: 0px;
+    display: flex;
+    
+}
+#services .box{
+    border: 2px solid brown;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 30px;
+    background-color: #d1dfeb;
+
+}
+#services .box:hover{
+    zoom:105%;
+    background-color: lightblue;
+}
+#services .box img{
+    height: 130px;
+    display: block;
+    margin: auto;
+    
+
+}
+#services .box h2{
+    font-family: 'Yatra One', cursive;
+    font-size: 2rem;
+    
+}
+
+/* client section  */
+
+#client-section::before{
+    content:" ";
+    position: absolute;
+    background: url('img4.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 350px;
+    z-index: -1;
+    opacity: 0.4;
+}
+#client-section{
+    /* position: relative; */
+    height: 360px;
+    /* width: 100vw; */
+}
+
+#clients{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 0px;
+}
+#clients .client{
+    margin: 20px 50px;
+    padding: 15px;
+}
+#clients .client img{
+    height: 125px;
+}
+#clients .client img:hover{
+    zoom: 70%;
+}
+/* contact-section  */
+
+#contacts::before{
+    content:" ";
+    position: absolute;
+    background: url('img3.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+
+#contacts{
+    position: relative;
+    
+
+}
+#contact-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: .5rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+#contact-box input,
+#contact-box textarea:hover{
+    background-color: lightblue;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Gayathri', sans-serif;
+}
+footer{
+    background: black;
+    color: white;
+}
+
+

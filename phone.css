@@ -1,0 +1,177 @@
+/* NAVIGATION  */
+*{
+    font-size: 15px;
+}
+.h-primary{
+    font-size: 2.8rem;
+    /* padding: 15px; */
+    font-family: 'Yatra One', cursive;
+    
+}
+.h-secondery{
+    font-size: 2.8rem;
+    padding: 15px;
+    font-family: 'Gayathri', sans-serif;
+   
+
+    
+
+}
+#navbar{
+    display: flex;
+    flex-direction:column;
+    
+     
+}
+#navbar ul li a{
+    font-size: 1.0rem;
+    padding: 0px 7px;
+}
+/* #navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 100%;
+
+     
+} */
+/* LOGO AND IMAGE
+#logo{
+   margin: 10px 53px ;
+   
+}
+#logo img{
+   margin: 30px 30px ;
+   height: 65px;
+
+} */
+
+/* home section  */
+#home{
+    display: flex;
+    flex-direction:column;
+    padding: 3px 95px;
+    height: 902px;
+    
+
+    
+   
+
+}
+#home::before{
+    content: "";
+    background:url('img1.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 1086px;
+    width: 100%;
+  z-index: -1;
+    opacity: .8;
+    position: absolute;
+    
+
+     
+}
+#home h1{ 
+    color: white;
+    text-align: center;
+    font-family: 'Yatra One', cursive;
+    
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    
+    font-family: 'Gayathri', sans-serif;
+
+}
+
+/* services section  */
+#services-container{
+    height: 1770px;
+    align-items: center;
+    justify-content: center;
+}
+#services{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#services .box{
+    border: 2px solid brown;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 38px;
+    border-radius: 30px;
+    background-color: #d1dfeb;
+
+}
+#services .box img{
+    height: 130px;
+    display: block;
+    margin: auto;
+    
+
+}
+#services .box h2{
+    font-family: 'Yatra One', cursive;
+    font-size: 2rem;
+    
+}
+
+/* client section  */
+#client-section::before{
+    content:" ";
+    position: absolute;
+    background: url('img4.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 680px;
+    z-index: -1;
+    opacity: 0.4;
+}
+#client-section{
+    /* position: relative; */
+    height: 682px;
+    /* width: 100vw; */
+}
+
+#clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 0px;
+    
+}
+#clients .client{
+    margin: 20px 50px;
+    padding: 15px;
+}
+#clients .client img{
+    height: 65px;
+} 
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+/* contact section  */
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: .5rem;
+    border-radius: 10px;
+    font-size: 0.7rem;
+}
+#contact-box form{
+    width: 50%;
+
+/* footer  */
